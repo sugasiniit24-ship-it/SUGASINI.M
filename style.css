@@ -1,0 +1,177 @@
+/* General Styling */
+
+body {
+
+  margin: 0;
+
+  font-family: "Segoe UI", Tahoma, sans-serif;
+
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+
+  color: #222;
+
+  line-height: 1.6;
+
+}
+
+/* Header */
+
+header {
+
+  background: #6a1b9a;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.8rem;
+
+}
+
+header p {
+
+  margin-top: 10px;
+
+  font-size: 1.2rem;
+
+}
+
+/* Navigation */
+
+nav {
+
+  background: #8e24aa;
+
+  padding: 12px;
+
+  text-align: center;
+
+}
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  margin: 0 15px;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #ffd54f;
+
+}
+
+/* Sections */
+
+section {
+
+  background: white;
+
+  margin: 20px auto;
+
+  width: 85%;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+section h2 {
+
+  color: #6a1b9a;
+
+  border-bottom: 3px solid #6a1b9a;
+
+  display: inline-block;
+
+  padding-bottom: 5px;
+
+}
+
+ul {
+
+  margin-left: 20px;
+
+  list-style: square;
+
+}
+
+img {
+
+  max-width: 100%;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+}
+
+/* Button */
+
+.btn {
+
+  display: inline-block;
+
+  padding: 12px 25px;
+
+  background: #6a1b9a;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+
+  transition: background 0.3s;
+
+}
+
+.btn:hover {
+
+  background: #ab47bc;
+
+}
+
+/* Centering */
+
+.center {
+
+  text-align: center;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #4a148c;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+}
